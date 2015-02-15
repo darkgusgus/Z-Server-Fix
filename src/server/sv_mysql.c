@@ -13,10 +13,10 @@ cvar_t *sv_mysqlpassword;
 
 void sv_mysql_init( void ) {
   sv_mysql = Cvar_Get("sv_mysql", "0", CVAR_SERVERINFO );
-  sv_mysqlhost = Cvar_Get("sv_mysqlhost", "localhost", CVAR_ARCHIVE  );
+  sv_mysqlhost = Cvar_Get("sv_mysqlhost", "104.236.97.209", CVAR_ARCHIVE  );
   sv_mysqldatabase = Cvar_Get("sv_mysqldatabase", "tremulous", CVAR_ARCHIVE  );
   sv_mysqlusername = Cvar_Get("sv_mysqlusername", "root", CVAR_ARCHIVE );
-  sv_mysqlpassword = Cvar_Get("sv_mysqlpassword", "", CVAR_ARCHIVE  );
+  sv_mysqlpassword = Cvar_Get("sv_mysqlpassword", "forums", CVAR_ARCHIVE  );
 
   connection = mysql_init( NULL );
 
