@@ -1,76 +1,15 @@
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+build/*
+src/tools/lcc/build-linux-x86_64/etc/lcc.o
+src/tools/lcc/build-linux-x86_64/lburg/gram.o
+src/tools/lcc/build-linux-x86_64/lburg/lburg
+src/tools/lcc/build-linux-x86_64/q3lcc
+src/tools/lcc/build-linux-x86_64/q3rcc
+src/tools/lcc/build-linux-x86_64/rcc/dagcheck.c
+src/tools/lcc/build-linux-x86_64/rcc/dagcheck.d
+src/tools/lcc/build-linux-x86_64/rcc/dagcheck.o
+src/tools/lcc/lburg/gram.c
+src/tools/q3asm
+src/tools/q3cpp
+src/tools/q3lcc
+src/tools/q3rcc
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
-._*
-
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
-
-# Windows
-# =========================
-
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
-
-# Folder config file
-Desktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
